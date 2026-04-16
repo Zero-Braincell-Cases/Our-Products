@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products — Zero Brain Cell Cases</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #080808; color: #F5F5F0; font-family: 'Space Mono', monospace; min-height: 100vh; }
+    .launch-banner {
+      background: #C8FF00;
+      color: #080808;
+      text-align: center;
+      padding: 8px 1rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    header { padding: 3rem 2.5rem 2rem; border-bottom: 1px solid rgba(245,245,240,0.08); }
+    header h1 { font-family: 'Syne', sans-serif; font-size: clamp(36px, 6vw, 72px); font-weight: 800; letter-spacing: -0.03em; line-height: 0.95; color: #F5F5F0; }
+    header h1 span { color: #C8FF00; }
+    header .header-sub { font-family: 'Space Mono', monospace; font-size: 12px; color: #F5F5F0; margin-top: 0.75rem; letter-spacing: 0.05em; }
+    main { padding: 3rem 2.5rem; }
+    .collection-block { margin-bottom: 4rem; }
+    .collection-title { font-family: 'Syne', sans-serif; font-size: 11px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: #C8FF00; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(200,255,0,0.15); display: flex; align-items: center; gap: 0.75rem; }
+    .collection-title::before { content: ''; display: inline-block; width: 6px; height: 6px; background: #C8FF00; border-radius: 50%; }
+    .collection-count { font-size: 10px; color: rgba(245,245,240,0.3); font-weight: 400; margin-left: auto; }
+    .products-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.25rem; }
+    .product-card { background: #111; border: 1px solid rgba(245,245,240,0.06); border-radius: 4px; overflow: hidden; transition: border-color 0.2s; display: block; }
+    .product-card:hover { border-color: rgba(200,255,0,0.15); }
+    .product-img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: #1a1a1a; }
+    .product-info { padding: 0.75rem; }
+    .product-name { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 800; color: #F5F5F0; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .product-price { font-family: 'Space Mono', monospace; font-size: 11px; color: #C8FF00; font-weight: 700; }
+    .custom-block { background: #111; border: 1px solid rgba(200,255,0,0.15); border-radius: 4px; padding: 2rem; text-align: center; margin-bottom: 4rem; }
+    .custom-block h2 { font-family: 'Syne', sans-serif; font-size: clamp(20px, 3vw, 32px); font-weight: 800; color: #C8FF00; margin-bottom: 0.75rem; }
+    .custom-block p { font-family: 'Space Mono', monospace; font-size: 12px; color: rgba(245,245,240,0.6); line-height: 1.7; }
+    .custom-block a { color: #C8FF00; text-decoration: none; }
+    .custom-block a:hover { text-decoration: underline; }
+    @media (max-width: 600px) { header, main { padding: 1.5rem 1rem; } .products-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; } }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       LAUNCH BANNER — Edit or remove this block
+       ============================================================ -->
+  <div class="launch-banner">&#10022; Launch Offer: Flat ₹100 Off &#10022;</div>
+
+  <header>
+    <h1>OUR <span>PRODUCTS</span></h1>
+    <p class="header-sub">FREE SHIPPING ABOVE ₹500 &nbsp;·&nbsp; AVAILABLE FROM IPHONE 11 TO IPHONE 17 &nbsp;·&nbsp; PREMIUM GLASS CASES</p>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         COLLECTION: Anime
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Anime<span class="collection-count">11 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Levi -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf546a8b36-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776089528" alt="Levi" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Levi</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: The Flame Hashira -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79f469acb6-Apple_iPhone_17_Pro.jpg?v=1775753705" alt="The Flame Hashira" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">The Flame Hashira</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Luffy's Back -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79f38be3d4-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1775754480" alt="Luffy's Back" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Luffy's Back</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Dattebayo! -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79ea87c5d9-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775754493" alt="Dattebayo!" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Dattebayo!</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Zenitsu Mode -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79e964a48e-Apple_iPhone_17.jpg?v=1775754470" alt="Zenitsu Mode" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Zenitsu Mode</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Trust Zoro -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79d6fb73bd-Apple_iPhone_17_Air.jpg?v=1775738247" alt="Trust Zoro" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Trust Zoro</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Tanjiro Never Quits -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79b6807cf0-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775754996" alt="Tanjiro Never Quits" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Tanjiro Never Quits</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: All Out Rengoku -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79b3dba370-Apple_iPhone_17.jpg?v=1775755072" alt="All Out Rengoku" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">All Out Rengoku</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Just Rengoku -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79a8930394-Apple_iPhone_17_Pro.jpg?v=1775755527" alt="Just Rengoku" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Just Rengoku</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Giyu Doesn't Care -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d799d8d5a1f-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775755913" alt="Giyu Doesn't Care" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Giyu Doesn't Care</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Akaza -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7999ca5a43-Apple_iPhone_17_Air.jpg?v=1775755998" alt="Akaza" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Akaza</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Cats
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Cats<span class="collection-count">15 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Lazy Cat -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcfc48e0480-Apple_iPhone_17_Pro.jpg?v=1776092265" alt="Lazy Cat" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Lazy Cat</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: No Humans -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf58fab8b6-Apple_iPhone_17.jpg?v=1776089321" alt="No Humans" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">No Humans</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Sleepy Cat -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf4d6d3398-Apple_iPhone_17_Pro_Max.jpg?v=1776088348" alt="Sleepy Cat" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Sleepy Cat</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Cuties -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dbe41833d87-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776090073" alt="Cuties" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Cuties</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Cats or Carpets -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7e88e7f6fe-Apple_iPhone_17.jpg?v=1775757764" alt="Cats or Carpets" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Cats or Carpets</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: WOW -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79b9f9266a-Apple_iPhone_17_Pro.jpg?v=1775754835" alt="WOW" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">WOW</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Miau -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79b748cd3c-Apple_iPhone_17_Pro_Max.jpg?v=1775737736" alt="Miau" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Miau</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Checkered Cat -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79b37b6d2c-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775755224" alt="Checkered Cat" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Checkered Cat</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Unbothered -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79abfc1077-Apple_iPhone_17.jpg?v=1775755325" alt="Unbothered" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Unbothered</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: The F*ck Cat -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79ab311eba-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1775755408" alt="The F*ck Cat" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">The F*ck Cat</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Born Silly -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79a575d0db-Apple_iPhone_17_Air.jpg?v=1775755631" alt="Born Silly" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Born Silly</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Cat Said Cheers -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d799ed12321-Apple_iPhone_17.jpg?v=1775755787" alt="Cat Said Cheers" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Cat Said Cheers</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: NO Means NO -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d798b47a038-Apple_iPhone_17.jpg?v=1775756292" alt="NO Means NO" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">NO Means NO</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Cat -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7986ef1740-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1775756343" alt="Cat" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Cat</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Judgemental Cat -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d795b6ccbc5-Apple_iPhone_17_Air.jpg?v=1776091611" alt="Judgemental Cat" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Judgemental Cat</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Big M's
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Big M's<span class="collection-count">5 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: A10 on a Case -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79cba1e842-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775754364" alt="A10 on a Case" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">A10 on a Case</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Peak Lalettan -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79c6af2988-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775754657" alt="Peak Lalettan" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Peak Lalettan</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Prime Ikka -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79c629def5-Apple_iPhone_17_Air.jpg?v=1775754631" alt="Prime Ikka" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Prime Ikka</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Big B -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79a19ea38e-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775755707" alt="Big B" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Big B</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Classic A10 -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d799628cfa2-Apple_iPhone_17_Pro_Max.jpg?v=1775737212" alt="Classic A10" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Classic A10</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Movies
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Movies<span class="collection-count">5 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Thalaiva -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf5ef40c3b-Apple_iPhone_17_Pro.jpg?v=1776089210" alt="Thalaiva" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Thalaiva</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: You -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7993849fb9-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775756122" alt="You" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">You</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Me -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7991bc6778-Apple_iPhone_17_Pro.jpg?v=1775756167" alt="Me" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Me</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Us -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d798e5d422b-Apple_iPhone_17.jpg?v=1776092225" alt="Us" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Us</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Spiderman -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7983f0d6a9-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1775756891" alt="Spiderman" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Spiderman</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Sports
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Sports<span class="collection-count">10 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Cristiano -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd6387c314a-Apple_iPhone_17.jpg?v=1776116823" alt="Cristiano" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Cristiano</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Leo -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd633771790-Apple_iPhone_17_Air.jpg?v=1776116783" alt="Leo" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Leo</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: King Kohli -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd600206906-Apple_iPhone_17.jpg?v=1776116348" alt="King Kohli" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">King Kohli</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Sachin -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd5f926fa34-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1776116388" alt="Sachin" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Sachin</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Team India -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd28897294e-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776101611" alt="Team India" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Team India</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Kerala Blasters -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf3b9d2729-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776089745" alt="Kerala Blasters" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Kerala Blasters</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: FCB -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7928144f51-Apple_iPhone_17.jpg?v=1776091982" alt="FCB" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">FCB</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: RM -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7924d5d642-Apple_iPhone_17_Air.jpg?v=1776092063" alt="RM" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">RM</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Barcelona -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d78b9c2cbd6-Apple_iPhone_17_Pro.jpg?v=1776092108" alt="Barcelona" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Barcelona</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Argentina -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7896f3fa19-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776089106" alt="Argentina" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Argentina</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Summer Prints
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Summer Prints<span class="collection-count">7 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Lime -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd0d86c9a67-Apple_iPhone_17.jpg?v=1776095035" alt="Lime" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Lime</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Royalty -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd0c38f1587-Apple_iPhone_17_Pro_Max.jpg?v=1776094339" alt="Royalty" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Royalty</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Watermelon -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf475c09e7-Apple_iPhone_17_Air.jpg?v=1776089694" alt="Watermelon" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Watermelon</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Flower Tiles -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcf36f807f9-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776089811" alt="Flower Tiles" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Flower Tiles</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Green Luxe -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dbe4d9283ad-Apple_iPhone_17.jpg?v=1776089937" alt="Green Luxe" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Green Luxe</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Sliced Vathakka -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dbe45be95b0-Apple_iPhone_17_Pro.jpg?v=1776090015" alt="Sliced Vathakka" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Sliced Vathakka</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Sunshine -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dbe37b55da7-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776090430" alt="Sunshine" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Sunshine</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Classics
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Classics<span class="collection-count">6 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Swatch -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd0d030d436-Apple_iPhone_17_Pro_Max.jpg?v=1776094537" alt="Swatch" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Swatch</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Dawn -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd0ca349f01-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776095116" alt="Dawn" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Dawn</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Burgundy -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dd0bdaef57f-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776095160" alt="Burgundy" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Burgundy</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Porsche -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d794efc8db2-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091765" alt="Porsche" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Porsche</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Just do it! -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d794be65366-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091826" alt="Just do it!" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Just do it!</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: YSL All Black -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d794881bf6e-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091924" alt="YSL All Black" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">YSL All Black</div>
+            <div class="product-price">₹499</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Premium Collection
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Premium Collection<span class="collection-count">11 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Black LV -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69dcfb2dd0450-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776090113" alt="Black LV" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Black LV</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Maroon LV -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7981a2f134-Apple_iPhone_17_Pro.jpg?v=1775756921" alt="Maroon LV" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Maroon LV</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Hermes -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d797fd81929-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775757025" alt="Hermes" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Hermes</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Serpent -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d797d8a3382-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776090602" alt="Serpent" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Serpent</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Gucci Classic -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d797aed88e7-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1776090669" alt="Gucci Classic" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Gucci Classic</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Tigress -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79793297d3-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776090708" alt="Tigress" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Tigress</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Tiger -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d797652fd7c-Apple_iPhone_17.jpg?v=1776090755" alt="Tiger" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Tiger</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Black Horse -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79748a3955-Apple_iPhone_17_Pro_Max.jpg?v=1775736673" alt="Black Horse" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Black Horse</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Bold LV -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d796ebc58c9-Apple_iPhone_17_Pro_Max.jpg?v=1775736582" alt="Bold LV" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Bold LV</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: YSL -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d796cdebc02-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091175" alt="YSL" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">YSL</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Gucci Bold -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7969c1d423-Apple_iPhone_17_Air.jpg?v=1776091212" alt="Gucci Bold" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Gucci Bold</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         COLLECTION: Arab Calligraphy
+         To rename: change the text inside <div class="collection-title">
+         To reorder: cut and paste product-card blocks
+         To remove a product: delete its entire product-card block
+         ============================================================ -->
+    <div class="collection-block">
+      <div class="collection-title">Arab Calligraphy<span class="collection-count">7 cases</span></div>
+      <div class="products-grid">
+
+        <!-- PRODUCT: Sabr. -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d797206e616-Apple_iPhone_17_Pro.jpg?v=1776091051" alt="Sabr." loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Sabr.</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Ilahi -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7967a297ff-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091246" alt="Ilahi" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Ilahi</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Ocean Sabr -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7964708061-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1775900777" alt="Ocean Sabr" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Ocean Sabr</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Shukr -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79622e81f0-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091520" alt="Shukr" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Shukr</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Thawakkul -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d7960164916-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091565" alt="Thawakkul" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Thawakkul</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Black Rose Sabr -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d79578e28b9-Apple_iPhone_16_Pro_Glass_Phone_Case.jpg?v=1776091667" alt="Black Rose Sabr" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Black Rose Sabr</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+        <!-- PRODUCT: Moody Sabr -->
+        <div class="product-card">
+          <img class="product-img" src="https://cdn.shopify.com/s/files/1/0732/4283/7127/files/front-69d795258c69b-Apple_iPhone_16_Pro_Max_Glass_Phone_Case.jpg?v=1776091723" alt="Moody Sabr" loading="lazy">
+          <div class="product-info">
+            <div class="product-name">Moody Sabr</div>
+            <div class="product-price">₹599</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         CUSTOM CASES — Edit Instagram handle below
+         ============================================================ -->
+    <div class="custom-block">
+      <h2>WANT A CUSTOM CASE?</h2>
+      <p>DM us on Instagram and we'll make it happen.<br>
+      <a href="https://www.instagram.com/zero.braincell.cases" target="_blank">@zero.braincell.cases</div></p>
+    </div>
+
+  </main>
+
+</body>
+</html>
